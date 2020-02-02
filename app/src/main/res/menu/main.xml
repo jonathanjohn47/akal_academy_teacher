@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_students_leave_requests"
+        android:title="Students' Leave Requests"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_teacher_calendar"
+        android:title="Teacher Attendance Calendar"
+        app:showAsAction="never"/>
+</menu>

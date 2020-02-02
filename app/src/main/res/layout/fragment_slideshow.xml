@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/slidshow_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/request_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:background="@drawable/spinner_back"
+            android:drawableRight="@drawable/baseline_keyboard_arrow_down_black_24dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Leave From"
+            android:inputType="textMultiLine"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/request_upto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:background="@drawable/spinner_back"
+            android:drawableRight="@drawable/baseline_keyboard_arrow_down_black_24dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Leave Up To"
+            android:inputType="textMultiLine"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/req_reason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:background="@drawable/spinner_back"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Reason For Leave"
+            android:inputType="textMultiLine"
+            android:padding="16dp" />
+
+        <Button
+            android:id="@+id/send_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/button_back"
+            android:text="Send\nRequest"
+            android:textColor="@color/common_google_signin_btn_text_dark_default" />
+    </LinearLayout>
+
+
+</LinearLayout>
